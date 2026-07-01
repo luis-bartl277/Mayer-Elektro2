@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mayer Elektro – Ihr Elektromeister aus der Region</title>
+  <meta name="description" content="Mayer Elektro – Meisterbetrieb für Elektroinstallation, Smart Home, Photovoltaik und E-Mobilität. Zuverlässig, sauber und termintreu." />
+
+  <!-- Fonts (CDN) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Mayer Elektro Startseite">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z" />
+          </svg>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">Mayer&nbsp;Elektro</span>
+          <span class="brand-sub">Elektro-Meisterbetrieb</span>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Hauptnavigation">
+        <a href="#leistungen">Leistungen</a>
+        <a href="#ueber-uns">Über&nbsp;uns</a>
+        <a href="#bewertungen">Bewertungen</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+
+      <a class="btn btn-primary btn-call" href="tel:+490000000000">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z" />
+        </svg>
+        <span class="btn-call-label">Anrufen</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <!-- dezentes technisches Muster + Glow, rein per SVG/CSS -->
+      <div class="hero-bg" aria-hidden="true">
+        <svg class="hero-pattern" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+          <defs>
+            <pattern id="circuit" width="72" height="72" patternUnits="userSpaceOnUse">
+              <path d="M0 36 H24 M48 36 H72 M36 0 V24 M36 48 V72" stroke="rgba(148,180,220,0.16)" stroke-width="1" fill="none" />
+              <circle cx="36" cy="36" r="2.5" fill="rgba(148,180,220,0.22)" />
+              <circle cx="0"  cy="36" r="1.6" fill="rgba(148,180,220,0.14)" />
+              <circle cx="72" cy="36" r="1.6" fill="rgba(148,180,220,0.14)" />
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#circuit)" />
+        </svg>
+        <span class="hero-glow"></span>
+      </div>
+
+      <div class="container hero-inner">
+        <p class="eyebrow eyebrow-light reveal">Meisterbetrieb · Region</p>
+        <h1 class="reveal">Elektrotechnik, auf die&nbsp;Sie sich verlassen&nbsp;können.</h1>
+        <p class="hero-lead reveal">
+          Von der sauberen Elektroinstallation über Smart Home bis zu Photovoltaik
+          und Wallbox: Wir planen, montieren und warten – zuverlässig, termintreu
+          und nach Meisterstandard.
+        </p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary btn-lg" href="#kontakt">Kostenlos anfragen</a>
+          <a class="btn btn-ghost btn-lg" href="#leistungen">Unsere Leistungen</a>
+        </div>
+
+        <ul class="hero-badges reveal" aria-label="Ihre Vorteile">
+          <li><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Meisterbetrieb</li>
+          <li><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Festpreis-Angebote</li>
+          <li><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>Saubere Ausführung</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== STATS / TRUST ===================== -->
+    <section class="stats-band" aria-label="Zahlen &amp; Fakten">
+      <div class="container stats-grid">
+        <div class="stat reveal">
+          <span class="stat-num">20+</span>
+          <span class="stat-label">Jahre Erfahrung</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat-num">1.500+</span>
+          <span class="stat-label">Abgeschlossene Projekte</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat-num">4,9<span class="stat-unit">/5</span></span>
+          <span class="stat-label">Kundenbewertung</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat-num">24&nbsp;h</span>
+          <span class="stat-label">Reaktion im Notfall</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== LEISTUNGEN ===================== -->
+    <section class="section" id="leistungen">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Leistungen</p>
+          <h2>Alles rund um Ihre Elektrik – aus einer Hand</h2>
+          <p class="section-intro">
+            Ob Neubau, Sanierung oder Nachrüstung: Wir übernehmen Planung und
+            Ausführung mit sauberer Dokumentation und geprüfter Sicherheit.
+          </p>
+        </header>
+
+        <div class="cards-grid">
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+            </span>
+            <h3>Elektroinstallation</h3>
+            <p>Neuinstallation und Modernisierung von Leitungen, Verteilern, Steckdosen und Beleuchtung – normgerecht und sauber verlegt.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
+            </span>
+            <h3>Smart Home</h3>
+            <p>Intelligente Steuerung von Licht, Heizung, Rollläden und Sicherheit – komfortabel per App und mit Zukunft.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></svg>
+            </span>
+            <h3>Photovoltaik &amp; Speicher</h3>
+            <p>Eigenen Strom erzeugen: Planung, Montage und Anschluss von PV-Anlagen inklusive Batteriespeicher und Zählertausch.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="10" height="20" rx="2"/><path d="M9 6h2M18 9l2 2v4a2 2 0 0 1-2 2"/><path d="M15 12h3"/></svg>
+            </span>
+            <h3>E-Mobilität &amp; Wallbox</h3>
+            <p>Sicheres Laden zu Hause: Beratung, Installation und Anmeldung Ihrer Wallbox – förderfähig und passend zur Anlage.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg>
+            </span>
+            <h3>E-Check &amp; Prüfung</h3>
+            <p>Geprüfte Sicherheit für Wohnung, Haus und Gewerbe – normgerechte Prüfung Ihrer Anlagen mit vollständigem Protokoll.</p>
+          </article>
+
+          <article class="card reveal">
+            <span class="card-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18h16M6 18l1-5h10l1 5M12 4v4M9 8h6"/><circle cx="12" cy="13" r="1"/></svg>
+            </span>
+            <h3>Beleuchtung</h3>
+            <p>Effiziente LED-Konzepte für innen und außen – von der Planung bis zur stimmungsvollen, sparsamen Umsetzung.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ÜBER UNS ===================== -->
+    <section class="section section-alt" id="ueber-uns">
+      <div class="container about-grid">
+        <div class="about-media reveal">
+          <div class="media-placeholder" role="img" aria-label="Platzhalter für Teamfoto">
+            <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="9" r="1.8"/><path d="m21 15-5-5L5 21"/></svg>
+            <span>Teamfoto</span>
+          </div>
+        </div>
+
+        <div class="about-body reveal">
+          <p class="eyebrow">Über uns</p>
+          <h2>Handwerk mit Anspruch – seit über 20 Jahren</h2>
+          <p>
+            Mayer Elektro ist Ihr regionaler Meisterbetrieb für private und
+            gewerbliche Elektrotechnik. Wir stehen für saubere Arbeit, ehrliche
+            Beratung und Termine, auf die Sie sich verlassen können.
+          </p>
+          <p>
+            Vom ersten Gespräch bis zur Übergabe haben Sie einen festen
+            Ansprechpartner. Wir arbeiten mit hochwertigen Materialien, planen
+            vorausschauend und hinterlassen die Baustelle so, wie wir sie selbst
+            vorfinden möchten.
+          </p>
+          <ul class="check-list">
+            <li><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Fester Ansprechpartner für Ihr Projekt</li>
+            <li><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Transparente Festpreis-Angebote</li>
+            <li><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg> Meisterqualität mit Gewährleistung</li>
+          </ul>
+          <a class="btn btn-primary" href="#kontakt">Projekt besprechen</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== DARK ACCENT / ABLAUF ===================== -->
+    <section class="section section-dark">
+      <div class="hero-bg" aria-hidden="true">
+        <svg class="hero-pattern" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+          <rect width="100%" height="100%" fill="url(#circuit)" />
+        </svg>
+      </div>
+      <div class="container">
+        <header class="section-head section-head-light reveal">
+          <p class="eyebrow eyebrow-light">So arbeiten wir</p>
+          <h2>In vier klaren Schritten zum Ergebnis</h2>
+        </header>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-num">01</span>
+            <h3>Anfrage &amp; Beratung</h3>
+            <p>Sie schildern Ihr Anliegen – wir beraten ehrlich und unverbindlich.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">02</span>
+            <h3>Angebot</h3>
+            <p>Sie erhalten ein transparentes Festpreis-Angebot ohne versteckte Kosten.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">03</span>
+            <h3>Umsetzung</h3>
+            <p>Wir montieren sauber, termintreu und mit hochwertigen Materialien.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-num">04</span>
+            <h3>Übergabe</h3>
+            <p>Prüfung, Dokumentation und Einweisung – alles geprüft und sicher.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== BEWERTUNGEN ===================== -->
+    <section class="section" id="bewertungen">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Bewertungen</p>
+          <h2>Was Kundinnen und Kunden sagen</h2>
+          <p class="section-intro">Eine Auswahl an Rückmeldungen aus unseren Projekten.</p>
+        </header>
+
+        <div class="reviews-grid">
+          <figure class="review reveal">
+            <div class="stars" aria-label="5 von 5 Sternen">★★★★★</div>
+            <blockquote>Pünktlich, sauber und freundlich. Die neue Verteilung sitzt perfekt und alles wurde verständlich erklärt.</blockquote>
+            <figcaption>— Zufriedene Kundin, Einfamilienhaus</figcaption>
+          </figure>
+          <figure class="review reveal">
+            <div class="stars" aria-label="5 von 5 Sternen">★★★★★</div>
+            <blockquote>Von der PV-Planung bis zur Wallbox alles aus einer Hand. Top Beratung und faires Festpreis-Angebot.</blockquote>
+            <figcaption>— Bauherr, Neubau</figcaption>
+          </figure>
+          <figure class="review reveal">
+            <div class="stars" aria-label="5 von 5 Sternen">★★★★★</div>
+            <blockquote>Schnelle Hilfe im Notfall und danach eine saubere, dauerhafte Lösung. Absolute Empfehlung.</blockquote>
+            <figcaption>— Gewerbekunde</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== KONTAKT / CTA ===================== -->
+    <section class="section section-alt" id="kontakt">
+      <div class="container contact-grid">
+        <div class="contact-intro reveal">
+          <p class="eyebrow">Kontakt</p>
+          <h2>Lassen Sie uns über Ihr Projekt sprechen</h2>
+          <p>
+            Schreiben Sie uns oder rufen Sie an – wir melden uns kurzfristig
+            zurück und erstellen Ihnen ein unverbindliches Angebot.
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-ico" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span>
+              <span><strong>Telefon</strong><br /><a href="tel:+490000000000">Bitte Rufnummer eintragen</a></span>
+            </li>
+            <li>
+              <span class="contact-ico" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg></span>
+              <span><strong>E-Mail</strong><br /><a href="mailto:info@example.de">Bitte E-Mail eintragen</a></span>
+            </li>
+            <li>
+              <span class="contact-ico" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></span>
+              <span><strong>Einsatzgebiet</strong><br />Region &amp; Umgebung</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-card reveal">
+          <h3>Schnellanfrage</h3>
+          <form class="contact-form" onsubmit="return false;">
+            <label>Name
+              <input type="text" name="name" autocomplete="name" placeholder="Ihr Name" />
+            </label>
+            <label>E-Mail
+              <input type="email" name="email" autocomplete="email" placeholder="ihre@email.de" />
+            </label>
+            <label>Telefon
+              <input type="tel" name="phone" autocomplete="tel" placeholder="Optional" />
+            </label>
+            <label>Ihr Anliegen
+              <textarea name="message" rows="4" placeholder="Kurz beschreiben, worum es geht"></textarea>
+            </label>
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Anfrage senden</button>
+            <p class="form-note">Mit dem Absenden stimmen Sie der Verarbeitung gemäß Datenschutzerklärung zu.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+        </span>
+        <div>
+          <strong>Mayer Elektro</strong>
+          <p>Elektro-Meisterbetrieb für Installation, Smart Home &amp; Photovoltaik.</p>
+        </div>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="#leistungen">Leistungen</a>
+        <a href="#ueber-uns">Über uns</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutz.html">Datenschutz</a>
+      </nav>
+    </div>
+    <div class="container footer-bottom">
+      <p>© Mayer Elektro. Alle Rechte vorbehalten.</p>
+      <a href="#top" class="footer-top">Nach oben ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    // Dezente Scroll-Reveals (sparsam, respektiert reduzierte Bewegung)
+    (function () {
+      var els = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window) ||
+          window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        els.forEach(function (el) { el.classList.add('is-visible'); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+      els.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
+</body>
+</html>
